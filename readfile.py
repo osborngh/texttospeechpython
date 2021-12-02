@@ -27,7 +27,7 @@ class App(tk.Tk):
 	def add_file(self):
 		self.file = str(fdg.askopenfilename())
 		self.file_name = os.path.basename(self.file)
-		if bool(self.file) is True:
+		if bool(self.file):
 			self.file_box.insert(tk.END, self.file_name)
 			self.read_btn.config(state=tk.NORMAL)
 		else:
