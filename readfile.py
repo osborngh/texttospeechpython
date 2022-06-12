@@ -6,7 +6,7 @@ import tkinter.messagebox as msg
 import os
 from threading import Thread
 
-#My First Python Text To Speech App
+#My First Github Project
 
 class App(tk.Tk):
 	def __init__(self):
